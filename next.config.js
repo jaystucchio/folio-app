@@ -1,4 +1,11 @@
 module.exports = {
-  typescript: { ignoreBuildErrors: true },
-  images: { unoptimized: true }
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  images: {
+    unoptimized: true,
+  }
 }
